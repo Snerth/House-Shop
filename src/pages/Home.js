@@ -2,7 +2,7 @@ import React from 'react'
 import Modal from 'react-bootstrap/Modal'
 import HouseRow from'../HouseRow'
 import sortArray from '../utils/sortArray'
-import logo from '../icons/insurance.svg'
+
 
 export default class Home extends React.Component {
     constructor(props) {
@@ -75,8 +75,8 @@ export default class Home extends React.Component {
   
       return (      
         <div>     
-            <div className="head">   
-               <img src={logo} alt="home" />
+            <div className="head">  
+            
               <input 
                 name="query"
                 className="search"

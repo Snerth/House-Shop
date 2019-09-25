@@ -1,0 +1,14 @@
+:root {
+    --background: rgb(235, 235, 235);
+    --backgroundDark: rgb(204, 204, 204);
+}
+.header {
+    background-color: var(--background);
+}
+.homeIcon {
+    margin: 5px 0px 5px 40px;    
+}
+.shopCartIcon {
+    margin: 5px 40px 5px 0px;
+    float: right;
+}
