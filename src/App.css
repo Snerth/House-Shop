@@ -1,0 +1,200 @@
+/* CSS RESET */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* -------------------------------------------- */
+:root {
+    --main: #660066;
+    --light: #660033;
+    --dark: #330066;
+    --white: #f0f0f0;
+    --black: #1f1f1f;
+}
+
+body {
+    background-color: var(--white);
+    font-family: 'Quicksand', sans-serif;
+    color: var(--black);
+}
+.topContainer {
+    padding: 10px;
+}
+.head {
+    background-color: var(--main);
+}
+.shopCard {
+    color: var(--white);
+    height: 42px;
+    float: right;
+    padding: 10px 8px 10px 8px;
+}
+.shopCard:hover {
+    background-color: var(--dark);
+    color: var(--white);
+}
+.search {
+    color: var(--black);
+    margin: 10px;
+    border: none;
+    width: 240px;
+    padding-left: 10px;
+}
+.houseLink {
+    overflow: hidden;
+    box-shadow: 4px 2px 14px 0px rgba(50, 50, 50, 0.384);
+    margin: 0;
+    width: 100%;
+    height: 230px;
+    cursor: pointer;    
+}
+.houseImage {
+    width: auto;
+    height: 100%;
+}
+.link { 
+    text-decoration: none;
+    color: var(--white);
+}
+.link:hover { 
+    text-decoration: none;
+    color: var(--white);
+}
+.houseList {
+    width: 100%;
+    padding: 20px;
+    margin-top: 30px;
+    text-align: center;
+    background-color: #ffffff;
+}
+.houseItem {
+    padding-bottom: 20px;
+}
+.houseName {
+    padding: 10px;
+    padding-bottom: 0;
+    color: var(--light);
+}
+.housePrice {
+    color: var(--dark);
+    padding: 10px;
+}
+.buy {
+    display: block;
+    background-color: var(--light);
+    padding: 5px 40px 5px 40px;
+}
+.buy:hover {
+    background-color: var(--dark);    
+}
+@media (max-width: 2000px) {
+    .houseLink {
+        height: 190px;
+    }    
+}
+@media (max-width: 575px) {
+    .houseLink {
+        height: 400px;
+    }
+}
+
+
+@media (max-width: 430px) {
+    .search {
+        width: 150px;
+    }
+    .houseItem {
+        padding: 0;
+        padding-bottom: 20px;
+    }
+    .houseList {
+        background-color: transparent;       
+    }
+    .houseLink {
+        height: 300px;
+    }
+}
+
+@media (max-width: 340px) {
+    .houseLink {
+        height: 200px;
+    }
+}
+
+/* Modal */
+.ModalH {
+    background-color: var(--main);
+    overflow: hidden;
+    padding: 0;
+}
+.ModalB {
+    background-color: var(--white);
+}
+.ModalF {
+    background-color: var(--white);
+}
+.Modalbuttons {
+    height: 40px;
+    width: 80px;
+    background-color: #660033;
+    border: none;
+    color: var(--white);
+}
+.Modalbuttons:hover {
+    background-color: #330066;
+}
+.ModalLi {
+    color: var(--dark);
+}
+.ModalImg {
+    width: 100%;
+    height: auto;
+}
+.ModalLi {
+    padding: 5px;
+}

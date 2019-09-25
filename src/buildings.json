@@ -1,0 +1,167 @@
+{
+    "buildings": [
+        {
+            "id": 1,
+            "name": "Maine House",
+            "price": "80 000 000",
+            "img": "https://static01.nyt.com/images/2016/08/14/realestate/14MAINECOV2/14MAINECOV2-superJumbo.jpg",
+            "rooms": 1,
+            "area": 60,
+            "phone": "0584093805",
+            "address": "Main street"
+        },
+        {
+            "id": 2,
+            "name": "Suburban House",
+            "price": "60 000 000",
+            "img": "https://jhalvorson.files.wordpress.com/2010/01/outside-of-house.jpg",
+            "rooms": 2,
+            "area": 70,
+            "phone": "0584095385",
+            "address": "st. Lawren street"
+        },
+        {
+            "id": 3,
+            "name": "Anderson House",
+            "price": "100 000 000",
+            "img": "http://www.comptonanderson.com/wp-content/gallery/residential-exterior/compton-anderson-houses-056.jpg",
+            "rooms": 2,
+            "area": 90,
+            "phone": "98793458",
+            "address": "Vue highway"
+        },
+        {
+            "id": 4,
+            "name": "Thornhill House",
+            "price": "10 000 000",
+            "img": "https://www.thestar.com/content/dam/thestar/life/homes/2017/11/17/923000-in-etobicoke-13-million-in-thornhill-what-these-houses-got/_3_cranston_exterior_front.jpg",
+            "rooms": 4,
+            "area": 3000,
+            "phone": "0584093805",
+            "address": "Main str. 4"
+        },
+
+        {
+            "id": 5,
+            "name": "Orange House",
+            "price": "85 000 000",
+            "img": "http://www.geekygirlengineer.com/wp-content/uploads/2014/07/orange-and-purple-houses.jpg",
+            "rooms": 4,
+            "area": 3000,
+            "phone": "0584093805",
+            "address": "Main str. 4"
+        },
+        {
+            "id": 6,
+            "name": "Farr House",
+            "price": "180 000 000",
+            "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Farr_House.JPG/1200px-Farr_House.JPG",
+            "rooms": 4,
+            "area": 3000,
+            "phone": "0584093805",
+            "address": "Main str. 4"
+        },
+        {
+            "id": 7,
+            "name": "Peoria House",
+            "price": "140 000 000",
+            "img": "https://www.utahrealestate.com/site/img/common/marquee-08.jpg",
+            "rooms": 4,
+            "area": 3000,
+            "phone": "0584093805",
+            "address": "Main str. 4"
+        },
+        {
+            "id": 8,
+            "name": "Toronto House",
+            "price": "140 000 000",
+            "img": "https://paulcs.files.wordpress.com/2010/06/img_2600.jpg",
+            "rooms": 4,
+            "area": 3000,
+            "phone": "0584093805",
+            "address": "Main str. 4"
+        },
+
+        {
+            "id": 9,
+            "name": "Compton House",
+            "price": "80 000 000",
+            "img": "http://www.comptonanderson.com/wp-content/gallery/residential-exterior/compton-anderson-houses-012.jpg",
+            "rooms": 4,
+            "area": 3000,
+            "phone": "0584093805",
+            "address": "Main str. 4"
+        },
+        {
+            "id": 10,
+            "name": "Gabby House",
+            "price": "84 000 000",
+            "img": "https://housekaboodle.com/wp-content/uploads/2012/05/susans_and_mikes_house_on_wisteria_lane_on_the_universal_studio_tour.jpg",
+            "rooms": 4,
+            "area": 3000,
+            "phone": "0584093805",
+            "address": "Main str. 4"
+        },
+        {
+            "id": 11,
+            "name": "Rubble House",
+            "price": "73 000 000",
+            "img": "https://rubbleurbanism.files.wordpress.com/2014/05/imag2898_burst004.jpg",
+            "rooms": 4,
+            "area": 3000,
+            "phone": "0584093805",
+            "address": "Main str. 4"
+        },
+        {
+            "id": 12,
+            "name": "Bodrum House",
+            "price": "173 000 000",
+            "img": "http://www.arhinex.si/files/uploads/ksa-p6.jpg",
+            "rooms": 4,
+            "area": 3000,
+            "phone": "0584093805",
+            "address": "Main str. 4"
+        },
+
+        {
+            "id": 13,
+            "name": "Greens House",
+            "price": "67 000 000",
+            "img": "http://www.woodhouse.ee/static/2011.02-Artikkel-Bilde-1-2.jpg",
+            "rooms": 4,
+            "area": 3000,
+            "phone": "0584093805",
+            "address": "Main str. 4"
+        },
+        {
+            "id": 14,
+            "name": "Titan House",
+            "price": "30 000 000",
+            "img": "https://www.titangarages.com.au/images/products/7912/pinnacle-lg.jpg",
+            "rooms": 4,
+            "area": 3000,
+            "phone": "0584093805",
+            "address": "Main str. 4"
+        },
+        {
+            "id": 15,
+            "name": "Dunalley House",
+            "price": "280 000 000",
+            "img": "https://wp.architecture.com.au/tasawards/wp-content/blogs.dir/4/files/2016---Residential-(Houses)---Dunalley-House/2016070953_DunalleyHouse_StaStuartTanner_BrettBoardman_1.jpg",
+            "rooms": 4,
+            "area": 3000,
+            "phone": "0584093805",
+            "address": "Main str. 4"
+        },
+        {
+            "id": 16,
+            "name": "Koda House",
+            "price": "130 000 000",
+            "img": "https://www.kodasema.com/wp-content/uploads/2018/11/KODA-houses-at-night_TonuTunnel-e1541432863359-1280x900.jpg",
+            "rooms": 4,
+            "area": 3000,
+            "phone": "0584093805",
+            "address": "Main str. 4"
+        }
+    ]
+}
