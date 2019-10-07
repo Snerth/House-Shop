@@ -1,0 +1,109 @@
+:root {
+    --main: #d3d3d3;
+    --light: #693750;
+    --dark: #380d63;
+    --white: #f0f0f0;
+    --black: #1f1f1f;
+}
+
+body {
+    background-color: var(--white);
+    font-family: 'Quicksand', sans-serif;
+    color: var(--black);
+}
+.topContainer {
+    padding: 10px;
+}
+
+.shopCard {
+    color: var(--white);
+    height: 42px;
+    float: right;
+    padding: 10px 8px 10px 8px;
+}
+.shopCard:hover {
+    background-color: var(--dark);
+    color: var(--white);
+}
+
+.houseLink {
+    overflow: hidden;
+    box-shadow: 4px 2px 14px 0px rgba(50, 50, 50, 0.384);
+    margin: 0;
+    width: 100%;
+    height: 230px;
+    cursor: pointer;    
+}
+.houseImage {
+    width: auto;
+    height: 100%;
+}
+.link { 
+    text-decoration: none;
+    color: var(--white);
+}
+.link:hover { 
+    text-decoration: none;
+    color: var(--white);
+}
+.houseList {
+    width: 100%;
+    padding: 20px;
+    margin-top: 30px;
+    text-align: center;
+    background-color: #ffffff;
+}
+.houseItem {
+    padding-bottom: 20px;
+}
+.houseName {
+    padding: 10px;
+    padding-bottom: 0;
+    color: var(--light);
+}
+.housePrice {
+    color: var(--dark);
+    padding: 10px;
+}
+.buy {
+    display: block;
+    background-color: var(--light);
+    padding: 5px 40px 5px 40px;
+    width: 100%;
+}
+.buy:hover {
+    background-color: var(--dark);    
+}
+@media (max-width: 2000px) {
+    .houseLink {
+        height: 190px;
+    }    
+}
+@media (max-width: 575px) {
+    .houseLink {
+        height: 400px;
+    }
+}
+
+
+@media (max-width: 430px) {
+    .search {
+        width: 150px;
+    }
+    .houseItem {
+        padding: 0;
+        padding-bottom: 20px;
+    }
+    .houseList {
+        background-color: transparent;       
+    }
+    .houseLink {
+        height: 300px;
+    }
+}
+
+@media (max-width: 340px) {
+    .houseLink {
+        height: 200px;
+    }
+}

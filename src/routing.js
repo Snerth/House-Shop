@@ -10,15 +10,14 @@ function Routing() {
   return (
     <Router>
       <div className="header">
-        <Link to="/" exact>
+        <Link to="/" >
           <img className="homeIcon" src={home} width="30" alt="Home" />
         </Link>
         <Link to="/shop-cart/">
           <img className="shopCartIcon" src={shop_cart} width="30" alt="Shop Cart" />
-        </Link>
-      
+        </Link>      
       </div>
-      <Route path="/" exact component={Home} />
+      <Route path="/" exact={true} component={Home} />
       <Route path="/shop-cart/" component={ShopCart} />
     </Router>
   );
